@@ -1,10 +1,10 @@
 
 #include "lib.h"
-float valmax(float a[], int n) {
+float max(float a[], int n) {
     float b=1;
-for (int j=0; j<n; j++){
-    if(a[j]>b){
-        b=a[j];
+for (int i=0; i<n; i++){
+    if(a[i]>b){
+        b=a[i];
     }
 }
     return b;
